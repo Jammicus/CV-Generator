@@ -1,0 +1,10 @@
+* Ansible-Mac - Simple Ansible example for provisioning OSx  Machines
+* AuctionSimulator - Updated verison of my final year project, done using Test Driven Development
+* CurrencyRates - Basic bash script to get currency rates
+* CV-Generator - My CV generated with Asciidoc which is built and uploaded to github using Continuous Integration tools
+* JenkinsUtils - Some utility methods for getting information from Jenkins
+* linux-packer - Using Packer create base images for linux distributions
+* log-hunter - Program to pull logs from remote hosts to a local machine
+* rates - Go program to gather currency rates from  https://exchangeratesapi.io/
+* Rot13 - Rot32 Decoder Written in Python
+* Yarn-Docker - Docker files for testing applications that use  Node and Yarn 

@@ -1,0 +1,93 @@
+:nofooter:
+// https://github.com/darshandsoni/asciidoctor-skins/blob/gh-pages/css/boot-lumen.css
+:stylesheet: resources/boot-lumen.css
+
+# James Walter
+
+Telephone: 07907 498 749, Email: Jamesmaxwalter@gmail.com
+
+GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-walter-4b0637111
+
+#### Skills
+
+* Artifact Repositories: Artifactory, Nexus
+* Build tools: Gradle, Yarn, NPM
+* Cloud: AWS
+* Configuration Management: Ansible, Chef
+* Container Orchestration: Docker Swarm, Kubernetes
+* Containerisation: Docker
+* Continous Integration Servers: Jenkins
+* Infrastructure as code: Packer, Terraform
+* Monitoring: Prometheus, Grafana
+* Operating Systems: Linux, Windows, OSx
+* Programming Langauges Proficient: Groovy, Java, Python, Golang
+* Programming Langauges Basic: Ruby
+* Source control: Git
+* Virtualization: Vsphere, Vagrant, Virtualbox
+
+#### Certifications
+
+* Red Hat Certified System Administrator, Taken on RedHat 8
+
+#### About Me
+
+* Avid non-fiction reader
+* Regular tennis and squash player
+* Enjoys cooking and learning new recipes
+
+#### Projects
+The following projects can be found on my GitHub
+
+include::projects.txt[]
+
+#### Education
+
+BSc Computer Science
+
+The University of Birmingham
+
+Classification: 2:2
+
+September 2012 - July 2016
+
+#### Relevant Work Experience
+
+**10x Banking - Infrastructure Engineer I**
+
+January 2020 - Present
+
+* Writing and maintaining a Terraform provider which allows creation of Honeycomb.io boards in Terraform
+* Improving and mantaining internal and client environments in AWS using Terraform
+* Building AMI images using Packer and Ansible
+* Improving observability by implementing tracing using Docker, Helm and Kubernetes
+* Providing client support to help them integrate thier support systems with Zendesk
+
+**Caplin Systems -  Release Engineer**
+
+January 2019 - December 2019
+
+* Planning and achiving Quarterly roadmaps for the Release Engineering team
+* Maintaining and converting legacy Chef cookbooks to Ansible
+* Writing tests for our Configuration management tools using Inspec
+* Supplying Ansible deployment playbooks to a customer to achieve Continuous Delivery
+* Integrating Kubernetes and Jenkins to provide fully containerised builds
+* Providing teams with automated short lived test environments for automated testing using Kubernetes and Docker
+* Consulting and implementing release process for a bespoke mobile application using Crashlytics and Jenkins.
+* Creating automated builds for third party software to build and implement them into our software as soon as a new release is available. 
+* Teaching graduates on rotations of the importance of automation across the software development lifecycle and how to achieve this with tools such as Ansible, Jenkins and Packer 
+* Implementing automated Static Code Analysis to our builds using Sonar
+* Implementing automated Static Dependency Analysis to our builds using OWASP Dependency Check
+
+**Caplin Systems -  Junior Release Engineer**
+
+December 2017 - January 2019
+
+* Maintaining and extending Chef cookbooks to provide build environments for Continuous Delivery
+* Designing and implementing monitoring with Prometheus and Grafana.
+* Implementing build and release pipelines for the whole development lifecycle using Jenkins and Artifactory to ensure we achieve Continuous Delivery across all products. 
+* Using Packer to generate RedHat based templates for provisioning in VSphere.
+* Maintaining and adding an automated release note generator written in Groovy
+
+#### References
+
+Available on request

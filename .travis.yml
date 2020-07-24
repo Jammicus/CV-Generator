@@ -1,0 +1,26 @@
+language: ruby
+rvm:
+- 2.6.3
+script: bundle install && bundle exec ruby scripts/githubProjects.rb $key > projects.txt && bundle exec asciidoctor -r asciidoctor-pdf -b pdf cv.adoc -o jameswalter-cv.pdf && bundle exec asciidoctor cv.adoc -o jameswalter-cv.html
+before_deploy:
+- git config --local user.name "James Walter"
+- git config --local user.email "jamesmaxwalter@gmail.com"
+- export TRAVIS_TAG=$(date +%d-%m-%Y-%H-%M)
+- git tag $TRAVIS_TAG
+deploy:
+  provider: releases
+  api_key:
+    secure: fO/WYQH9b5pRw8rJXOgUhH63263FVhQtEX5kZJj+Wltp3LDUAouZTxY7P5Ueuj9lZZR1T8tMS65zMjM+ieVsyIqViU8/IXKs3I/E8rbCJRFUR7B6wCElArXbcRe426s80qOmScekB9dITkDledv/uKbRMvfQHzwBTYCoFCvYSyq9dNeQsif/YSKpysqMR08UrSdd1+Kj1T3hm0ssoFs7goMb/vtZogGkCQNiENy8fhOVQjnB3fmW3tgtoiUWKsX+j+ixksNVOyDc4TUD8MsuQ7LbxaF10HerYPmqXUXLGS8r/uIeIjV9q/hx07UVm7TbTybd3XRNGrgEZeiOrA0OFcd105XBm/Abm4CnDBnls+E1Uu4yBxun/LXEbe/hL/iiJrrMK+5iENV3gD5lr8PHjFmN+oGKtbzbahQr9QCFkyX2OVrrgHNz8U9NMDalAhjo7sdUHW7aTUNvf1SFjSYG8aOm9OlimSsJh/uaMPJ6zZXpImBGdRKHBvVcgBIE4W0FTbzd5NHUUEe+zQEp+E6HQ3DdtZWQ2pnT9wx/UZ1nUNWmvJqBWEkxPTCiyaBYxyiQ9hDW/ii9vM0TfNr973A1TefGwi3j1NAaT0TNUXpW8BL/Mp2qqMdQnENZJcUBuxlWn6+QcEeZnS+0h6jfPBXaolH4EF4WDjUR6QSE6oB9gZ8=
+  skip_cleanup: true
+  file:
+  - jameswalter-cv.html
+  - jameswalter-cv.pdf
+  on:
+    repo: Jammicus/CV-Generator
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+env:
+  global:
+      secure: "AeW5d70tp0Bek//YI0+Efhzf2OG4TFTZwQafdb6MTDFSXYV4+OI5c1A7d8eg58z4NEZrVHa6AN7h6CMEcHtTmg76/wOAl1uv9QK4hIRRXx1X2hyTpM2wRMWcHgwvY7fJSZIEkU/hKETEBkVeBf4WGp7qyMGTnHPjlYGWg0IKDQZlXu9nnyBX5fJnZshh9qBl484gq2TxhASDBT14R5Ey8TYSVeh1eRjZfoIhJ12zMOZCyYI6pBPjBgqd3Q9zxEtPK1bEePBLolXZbKVkXDO4jV3PfIRny6RWl+cdf+wddXl9ATKgNbE4t/OirZrqEs5XWt6GJzxeBHkUZe2uE9qXZPEibr+LmPiIc5XXLSP3eIEcllJ4vx17ccq77E1dSScuIti0G2M37anvtKL5Kn9kM0XTZd9zC9y9rfhBD/nf2xE6UcNfDmstXIF11jazDbQyAvtvmLioKxTUTIGnlcyvqMPk1xug8O/9PzFlRGhjRDtJWCboDlogfg4/AzniRAByvL2w88C+vaxuoPsWAcQ+ss0arH5cH5Yq/ZSR4d/UgFX8d4akeNfVX8c+h4mx7YDGJsAga04qVpMpyMKQFBRAbIgiPOhY5auUjsnSs1sGG9S+CUwMbDWMFFpLZ0NGZxUwvfG6QnZdk/9uXC0tJCq5wIRRxw5T1MaIAYKBl55Wvwo="
