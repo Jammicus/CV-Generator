@@ -14,14 +14,15 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 * Build tools: Gradle, Yarn, NPM
 * Cloud: AWS
 * Configuration Management: Ansible, Chef
-* Container Orchestration: Docker Swarm, Kubernetes
+* Container Orchestration: Kubernetes
 * Containerisation: Docker
-* Continous Integration Servers: Jenkins
+* Continous Integration Servers: Jenkins, Concourse, Github Actions
 * Infrastructure as code: Packer, Terraform
 * Monitoring: Prometheus, Grafana
+* Observability: Honeycomb, Opentracing
 * Operating Systems: Linux, Windows, OSx
-* Programming Langauges Proficient: Groovy, Java, Python, Golang
-* Programming Langauges Basic: Ruby
+* Programming Langauges Proficient: Python, Golang
+* Programming Langauges Basic: Ruby, Java, Groovy
 * Source control: Git
 * Virtualization: Vsphere, Vagrant, Virtualbox
 
