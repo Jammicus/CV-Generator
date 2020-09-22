@@ -28,7 +28,7 @@ end
 contents = JSON.parse(resp.body)
 
 contents.each do |item|
-    if !excludedRepositories.include? item["name"]
+    if !excludedRepositories.include? item["name"] && item["fork"] != true
         puts "* " + item["name"] + " - " + item ["description"]
     end
 end
