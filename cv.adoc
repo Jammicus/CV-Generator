@@ -16,14 +16,15 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 * Configuration Management: Ansible, Chef
 * Container Orchestration: Kubernetes
 * Containerisation: Docker
-* Continous Integration Servers: Jenkins, Concourse, Github Actions
+* Continous Integration Servers: Jenkins, Concourse
 * Infrastructure as code: Packer, Terraform
 * Monitoring: Prometheus, Grafana
-* Observability: Honeycomb, Opentracing
+* Observability: Honeycomb, Opentracing, Zipkin
 * Operating Systems: Linux, Windows, OSx
-* Programming Langauges Proficient: Python, Golang
-* Programming Langauges Basic: Ruby, Java, Groovy
+* Programming Langauges Proficient: Golang
+* Programming Langauges Basic: Ruby, Java, Groovy, Python
 * Source control: Git
+* Service Mesh: Linkerd, Istio
 * Virtualization: Vsphere, Vagrant, Virtualbox
 
 #### Certifications
@@ -58,12 +59,21 @@ September 2012 - July 2016
 January 2020 - Present
 
 * Writing and maintaining a Terraform provider which allows creation of Honeycomb.io boards in Terraform
-* Improving and mantaining internal and client environments in AWS using Terraform
-* Building AMI images using Packer and Ansible
-* Improving observability by implementing tracing using Docker, Helm and Kubernetes
-* Providing client support to help them integrate thier support systems with Zendesk
-* Maintaining and providing support for multiple Kubernetes clusters
-* Implementing serivce mesh replacement from Linkerd 1 to Istio
+* Maintaining production and non production environments using Terraform using the following AWS technologies:
+    * EKS
+    * EC2
+    * VPC
+    * IAM 
+    * EMR
+    * KMS 
+* Writing and maintaining continous deployment pipelines in both Jenkins and Concourse
+* Building and maintaining AMIs using Packer, Ansible and custom Golang code for testing
+* Building and maintaining Docker images for core 
+* Being a code owner of several infrastructure components with the responsilblity to:
+    * Review Pull Requests
+    * Cut releases
+    * Deploying the releases in all environments including production
+* Cofiguring montioring and alerting for infrastructure components using Prometheus, alertmanager and Grafana
 
 **Caplin Systems -  Release Engineer**
 
