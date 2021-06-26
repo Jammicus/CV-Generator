@@ -22,7 +22,7 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 * Observability: Honeycomb, Opentracing, Zipkin
 * Operating Systems: Linux, Windows, OSx
 * Programming Langauges Proficient: Golang
-* Programming Langauges Basic: Ruby, Java, Groovy, Python
+* Programming Langauges Basic: Python
 * Source control: Git
 * Service Mesh: Linkerd, Istio
 * Virtualization: Vsphere, Vagrant, Virtualbox
