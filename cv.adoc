@@ -17,7 +17,7 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 * Container Orchestration: Kubernetes
 * Containerisation: Docker
 * Continous Integration Servers: Jenkins, Concourse
-* Infrastructure as code: Packer, Terraform
+* Infrastructure As Code: Packer, Terraform
 * Monitoring: Prometheus, Grafana
 * Observability: Honeycomb, Opentracing, Zipkin
 * Operating Systems: Linux, Windows, OSx
@@ -35,12 +35,8 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 
 * Avid non-fiction reader
 * Regular tennis and squash player
-* Enjoys cooking and learning new recipes
+* Enjoys contributing to opensource projects
 
-#### Projects
-The following projects can be found on my GitHub
-
-include::projects.txt[]
 
 #### Education
 
@@ -54,18 +50,18 @@ September 2012 - July 2016
 
 #### Relevant Work Experience
 
-**10x Banking - Infrastructure Engineer I**
+**10x Banking - Infrastructure Engineer**
 
 January 2020 - Present
 
 * Writing and maintaining a Terraform provider which allows creation of Honeycomb.io boards in Terraform
 * Maintaining production and non production environments using Terraform using the following AWS technologies:
-    * EKS
-    * EC2
-    * VPC
-    * IAM 
-    * EMR
-    * KMS 
+    ** EKS
+    ** EC2
+    ** VPC
+    ** IAM 
+    ** EMR
+    ** KMS 
 * Writing and maintaining continous deployment pipelines in both Jenkins and Concourse
 * Building and maintaining AMIs using Packer, Ansible and custom Golang code for testing
 * Building and maintaining Docker images for core 
