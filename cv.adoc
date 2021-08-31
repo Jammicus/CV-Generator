@@ -24,12 +24,13 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 * Programming Langauges Proficient: Golang
 * Programming Langauges Basic: Python
 * Source control: Git
-* Service Mesh: Linkerd, Istio
+* Service Mesh: Linkerd
 * Virtualization: Vsphere, Vagrant, Virtualbox
 
 #### Certifications
 
 * Red Hat Certified System Administrator, Taken on RedHat 8
+* Certified Kubernetes Administrator (CKA)
 
 #### About Me
 
