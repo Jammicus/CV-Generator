@@ -29,7 +29,7 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 
 #### Certifications
 
-* Red Hat Certified System Administrator, Taken on RedHat 8
+* Red Hat Certified System Administrator (RHCSA)
 * Certified Kubernetes Administrator (CKA)
 
 #### About Me
