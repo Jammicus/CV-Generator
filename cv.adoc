@@ -10,34 +10,23 @@ GitHub: https://github.com/Jammicus, Linkedin: https://linkedin.com/in/james-wal
 
 #### Skills
 
-* Artifact Repositories: Artifactory, Nexus
-* Build tools: Gradle, Yarn, NPM
-* Cloud: AWS
+* Cloud: AWS 
 * Configuration Management: Ansible, Chef
 * Container Orchestration: Kubernetes
-* Containerisation: Docker
-* Continous Integration Servers: Jenkins, Concourse
-* Infrastructure As Code: Packer, Terraform
-* Monitoring: Prometheus, Grafana
-* Observability: Honeycomb, Opentracing, Zipkin
+* Containerisation: Conatinerd, Docker
+* Continous Integration Servers: Concourse, Jenkins
+* Infrastructure As Code: Packer, Terragrunt, Terraform
+* Monitoring: Prometheus, Grafana, Newrelic
+* Observability: Opentracing, Zipkin
 * Operating Systems: Linux, Windows, OSx
 * Programming Langauges Proficient: Golang
 * Programming Langauges Basic: Python
 * Source control: Git
-* Service Mesh: Linkerd
-* Virtualization: Vsphere, Vagrant, Virtualbox
+* Misc: Open policy agent (opa)
 
 #### Certifications
 
-* Red Hat Certified System Administrator (RHCSA)
 * Certified Kubernetes Administrator (CKA)
-
-#### About Me
-
-* Avid non-fiction reader
-* Regular tennis and squash player
-* Enjoys contributing to opensource projects
-
 
 #### Education
 
@@ -51,9 +40,27 @@ September 2012 - July 2016
 
 #### Relevant Work Experience
 
-**10x Banking - Infrastructure Engineer**
+**10x Banking - Senior Platform Engineer**
 
-January 2020 - Present
+April 2022 - Present
+
+* Technical lead on replacement of Linkerd service mesh with Envoy which is ran in EKS
+* Worked on graceful shutdown initative that improved node termination events to near 100% graceful
+* Maintained and refactored Golang based Kubernetes mutating webhooks.
+* Writing and maintaining a large suite of infrastructure tests using Golang and Terratest
+* Participation on a 24/7 on call rotation for prodution environments.
+* Technical reviewer to other departments initiaves, such as: 
+    * Custom metric recordings for SLAs at the ingress and egress points of the platform
+    * Deploy time container verification using Kyverno
+    * Ability to scale services down to 0 and scale back up with client impact using Keda HTTP intercetper
+    * Migrationn of prometheus based alerting into NewRelic 
+* Roadmap planning and organisation 
+* Mentoring junior members of the team
+
+
+**10x Banking - Platform Engineer**
+
+January 2020 - April 2022
 
 * Writing and maintaining a Terraform provider which allows creation of Honeycomb.io boards in Terraform
 * Maintaining production and non production environments using Terraform using the following AWS technologies:
